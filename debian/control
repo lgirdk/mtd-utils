@@ -3,7 +3,7 @@ Section: utils
 Priority: extra
 Maintainer: Riku Voipio <riku.voipio@iki.fi>
 Uploaders: Otavio Salvador <otavio@debian.org>
-Build-Depends: debhelper (>= 5.0), zlib1g-dev, libacl1-dev
+Build-Depends: debhelper (>= 5.0), zlib1g-dev, libacl1-dev, liblzo2-dev
 Standards-Version: 3.7.2
 
 Package: mtd-utils
