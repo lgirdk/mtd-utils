@@ -33,7 +33,7 @@ install: build
 	dh_installdirs
 
 	# Add here commands to install the package into debian/tmp.
-	$(MAKE) install DESTDIR=`pwd`/debian/mtd-tools
+	$(MAKE) install DESTDIR=`pwd`/debian/mtd-utils
 	#for each in $(shell file util/*|grep ELF.*executable|sed 's/:.*//'); do \
 	#  install $$each debian/tmp/usr/bin/; \
 	#done
