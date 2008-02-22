@@ -1,0 +1,13 @@
+This package was debianized by David Schleef <ds@debian.org> on
+Sat, 13 Jan 2001 10:48:08 -0800.
+
+It was downloaded from: git://git.infradead.org/mtd-utils.git
+Main web page for the project: http://www.linux-mtd.infradead.org/
+
+Upstream Author: David Woodhouse <dmwm2@infradead.org>
+
+Copyright:
+
+This software product, and debian packaging, is distributed under the
+GNU Public License v2. See /usr/share/common-licenses/GPL for the
+full terms.

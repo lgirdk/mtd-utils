@@ -1,0 +1,67 @@
+mtd (20061007-1) unstable; urgency=low
+
+  * New upstream snapshot, Closes: #391095
+  * flash-eraseall now works: Closes: #386753
+  * update to latest debhelper and policy
+
+ -- Riku Voipio <riku.voipio@iki.fi>  Sat,  7 Oct 2006 18:43:49 +0300
+
+mtd (20050122-2) unstable; urgency=low
+
+  * Fix the version, darn
+  * Get rid of historic conflict, closes: #160614
+
+ -- Riku Voipio <riku.voipio@iki.fi>  Sun, 23 Jan 2005 12:56:16 +0000
+
+mtd (20050122) unstable; urgency=low
+
+  * New upstream snapshot
+  * Upstream contains big-endian fixes, Closes: #291182
+  * Apply gcc-4 fix from Andreas Jochens, Closes: #287678
+
+ -- Riku Voipio <riku.voipio@iki.fi>  Sun, 23 Jan 2005 12:25:28 +0000
+
+mtd (20041007-1) unstable; urgency=low
+
+  * New upstream version, closes: #239954
+  * New maintainer
+  * Images created with mkfs.jffs2 actually work, closes: #260029
+  * Hardlink work nowadays too, closes: #156311
+  
+ -- Riku Voipio <riku.voipio@iki.fi>  Fri,  8 Oct 2004 11:16:21 +0000
+
+mtd (20011217-4) unstable; urgency=low
+
+  * Add conflict with fsh, since both contain /usr/bin/fcp. (Closes: #160614)
+
+ -- David Schleef <ds@schleef.org>  Thu, 12 Sep 2002 01:18:43 -0700
+
+mtd (20011217-3) unstable; urgency=low
+
+  * Few more fixes for usage of asm headers, from Anders Boström.
+    Should build on ARM now.  (Closes #94591)
+  * Added additional documentation files.
+  * Added more entries to debian/undocumented.
+
+ -- David Schleef <ds@schleef.org>  Mon, 14 Jan 2002 12:52:36 -0800
+
+mtd (20011217-2) unstable; urgency=low
+
+  * Fix usage of asm headers (Closes #94591)
+
+ -- David Schleef <ds@schleef.org>  Fri, 11 Jan 2002 16:14:21 -0800
+
+mtd (20011217-1) unstable; urgency=low
+
+  * New snapshot.
+  * Update standards-version.
+  * Add zlib1g-dev to build-deps.
+
+ -- David Schleef <ds@schleef.org>  Mon, 17 Dec 2001 18:45:48 -0800
+
+mtd (20010425-1) unstable; urgency=low
+
+  * Initial Release.  Closes BUG#82115
+
+ -- David Schleef <ds@debian.org>  Wed, 25 Apr 2001 06:10:39 -0700
+

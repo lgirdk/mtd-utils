@@ -1,0 +1,15 @@
+Source: mtd
+Section: utils
+Priority: extra
+Maintainer: Riku Voipio <riku.voipio@iki.fi>
+Build-Depends: debhelper (>= 5.0), zlib1g-dev, libacl1-dev
+Standards-Version: 3.7.2
+
+Package: mtd-tools
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: memory Technology Device Tools
+ Tools for manipulating memory technology devices, such as flash
+ memory, Disk-On-Chip, or ROM.  Includes mkfs.jffs2, a tool to
+ create JFFS2 (journaling flash file system) filesystems.
+
